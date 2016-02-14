@@ -1,2 +1,0 @@
-$ git config --global core.edtior "'C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe' -n -w"
-
