@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<head>
+<title>Resume Home</title>
+</head>
+<body>
+<h4>Resume</h4>
+<p>Hi this is first file to commit.</p>
+<p>This is second line to commit.</p>
+<hr />
+<p>This is third line to commit.</p>
+<p> This file open with git bash command</p>
+
+<h3>Remote Repositories</h3>
+<p>https://github.com/try-git/try_git.git. To push our local repo to the GitHub server we'll need to add a remote repository.
+
+<p>This command takes a remote name and a repository URL, which in your case is https://github.com/try-git/try_git.git.
+
+<p>$ git remote add origin https://github.com/try-git/try_git.git
+
+-------------------------------------------------------------------------------------------------------------
+<h3>Pushing Remotely</h3>
+<p>The push command tells Git where to put our commits when we're ready, and boy we're ready. So let's push our local changes to our origin repo (on GitHub).</p>
+
+<p>The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do. Go ahead and push it!</p>
+
+<p>$ git push -u origin master</p>
+
+---------------------------------------------------------------------------------------
+<h3>Pulling Remotely</h3>
+<p>Let's pretend some time has passed. We've invited other people to our GitHub project who have pulled your changes, made their own commits, and pushed them.</p>
+
+<p>We can check for changes on our GitHub repository and pull down any new changes by running:</p>
+
+<p>$ git pull origin master</p>
+
+-------------------------------------------------------------------------------------------
+</body>
+</html>
